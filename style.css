@@ -15,4 +15,8 @@ header{
     margin-bottom: 50px;
     
 }
-
+.card1{
+    background-color: white;
+    grid-area: title;
+    margin-bottom: 50px;
+}
