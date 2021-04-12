@@ -20,3 +20,19 @@ header{
     grid-area: title;
     margin-bottom: 50px;
 }
+.pillar1{
+    background-color: white;
+    grid-area: pillar1;
+    margin-right: 9px;
+}
+.pillar2{
+    background-color: white;
+    grid-area: pillar2;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+.pillar3{
+    background-color: white;
+    grid-area: pillar3;
+    margin-left: 9px;
+}
