@@ -8,5 +8,11 @@ body{
                             ". pillar1 pillar2 pillar3 .";
     
 }
-
+header{
+    background: linear-gradient(to bottom, orange 96%, red 4%);
+    grid-area: header;
+    height: 85px;
+    margin-bottom: 50px;
+    
+}
 
