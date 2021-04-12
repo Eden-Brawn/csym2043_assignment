@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(91.8%, 88.6%, 71.8%);
+    display: grid;
+    grid-template-rows: autos;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-areas: "header header header header header"
+                            ". title title title ."
+                            ". pillar1 pillar2 pillar3 .";
+    
+}
+
+
