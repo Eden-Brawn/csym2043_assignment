@@ -2,10 +2,10 @@ body{
     background-color: rgb(91.8%, 88.6%, 71.8%);
     display: grid;
     grid-template-rows: autos;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-areas: "header header header header header"
-                            ". title title title ."
-                            ". pillar1 pillar2 pillar3 .";
+    grid-template-columns: 8.5% 26.6% 1.5% 26.6% 1.5% 26.6% 8.5%;
+    grid-template-areas: "header header header header header header header"
+                            ". title title title title title ."
+                            ". pillar1 . pillar2 . pillar3 .";
     
 }
 header{
@@ -23,18 +23,14 @@ header{
 .pillar1{
     background-color: white;
     grid-area: pillar1;
-    margin-right: 9px;
 }
 .pillar2{
     background-color: white;
     grid-area: pillar2;
-    margin-left: 9px;
-    margin-right: 9px;
 }
 .pillar3{
     background-color: white;
     grid-area: pillar3;
-    margin-left: 9px;
 }
 .nav{
     list-style-type: none;
@@ -54,4 +50,12 @@ li{
     padding: 0;
     margin: 0;
     border: none;
+}
+.card1, h1, h2{
+    justify-content: left;
+}
+.mainimg{
+    justify-content: right;
+    width: 551px;
+    height: 437px;
 }
