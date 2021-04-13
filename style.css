@@ -55,11 +55,17 @@ li{
     width: 551px;
     height: 437px;
     text-align: center;
-    float: left;
+    float: right;
 }
 .introtext{
     text-align: center;
     width: 300px;
-    margin-right: 0px;
+    margin-top: 68.5px;
     float: left;
+}
+.introtext, h1{
+    font-size: 48px;
+}
+.introtext, h2{
+    font-size: 24px;
 }
