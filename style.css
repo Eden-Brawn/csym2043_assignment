@@ -1,5 +1,6 @@
 body{
     background-color: rgb(91.8%, 88.6%, 71.8%);
+    opacity: 83%;
     display: grid;
     grid-template-rows: autos;
     grid-template-columns: 8.5% 26.6% 1.5% 26.6% 1.5% 26.6% 8.5%;
@@ -45,6 +46,8 @@ header{
     width: 300px;
     margin: 0;
     margin-top: 33.5px;
+    font-family: 'Prata', serif;
+    font-style: normal;
 }
 li{
     padding: 0;
@@ -63,6 +66,8 @@ li{
     margin-top: 68.5px;
     margin-left: 110px;
     float: left;
+    font-family: 'Prata', serif;
+    font-weight: 100px;
 }
 .introtext, h1{
     font-size: 48px;
