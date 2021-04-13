@@ -54,10 +54,12 @@ li{
 .mainimg{
     width: 551px;
     height: 437px;
-    text-align: right;
+    text-align: center;
+    float: left;
 }
 .introtext{
     text-align: center;
-    width: 390px;
-    margin-left: 50px;
+    width: 300px;
+    margin-right: 0px;
+    float: left;
 }
