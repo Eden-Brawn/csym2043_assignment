@@ -16,10 +16,10 @@ body{
 header{
     background: linear-gradient(to bottom, rgba(247,127,0,255) 95%, rgba(214,40,40,255) 5%);
     grid-area: header;
-    height: 90px;
+    height: 92px;
     margin-bottom: 50px;
     color: #ffffff;
-    box-shadow: 1px 1px 10px -5px black;
+    box-shadow: 0px 0px 7px  black;
     max-width: 1563px;
     width: 1349px;
     position: -webkit-sticky;
@@ -32,22 +32,25 @@ header{
     grid-area: title;
     margin-bottom: 50px;
     color: rgb(0, 48, 73);
-    box-shadow: 1px 1px 10px -5px black;
+    box-shadow: 0px 4px 5px -4px black;
 }
 .pillar1{
     background-color: white;
     grid-area: pillar1;
-    box-shadow: 1px 1px 10px -5px black;
+    box-shadow: 0px 4px 5px -4px black;
+    margin-bottom: 50px;
 }
 .pillar2{
     background-color: white;
     grid-area: pillar2;
-    box-shadow: 1px 1px 10px -5px black;
+    box-shadow: 0px 4px 5px -4px black;
+    margin-bottom: 50px;
 }
 .pillar3{
     background-color: white;
     grid-area: pillar3;
-    box-shadow: 1px 1px 10px -5px black;
+    box-shadow: 0px 4px 5px -4px black;
+    margin-bottom: 50px;
 }
 .nav{
     list-style-type: none;
