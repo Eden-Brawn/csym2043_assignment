@@ -19,24 +19,29 @@ header{
     height: 85px;
     margin-bottom: 50px;
     color: #ffffff;
+    box-shadow: 1px 1px 10px black;
 }
 .card1{
     background-color: white;
     grid-area: title;
     margin-bottom: 50px;
     color: rgb(0, 48, 73);
+    box-shadow: 1px 1px 10px black;
 }
 .pillar1{
     background-color: white;
     grid-area: pillar1;
+    box-shadow: 1px 1px 10px black;
 }
 .pillar2{
     background-color: white;
     grid-area: pillar2;
+    box-shadow: 1px 1px 10px black;
 }
 .pillar3{
     background-color: white;
     grid-area: pillar3;
+    box-shadow: 1px 1px 10px black;
 }
 .nav{
     list-style-type: none;
