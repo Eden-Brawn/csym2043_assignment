@@ -44,6 +44,11 @@ header{
     text-align: center;
     color: rgb(0, 48, 73);
 }
+.pillar1img{
+    width: 374.39px;
+    height: 261px;
+    
+}
 .pillar1, h3{
     font-family: 'Prata', serif;
     font-size: 20px;
@@ -61,6 +66,11 @@ header{
     text-align: center;
     color: rgb(0, 48, 73);
 }
+.pillar2img{
+    width: 355px;
+    height: 235px;
+    
+}
 .pillar2, h3{
     font-family: 'Prata', serif;
     font-size: 20px;
@@ -77,6 +87,11 @@ header{
     margin-bottom: 50px;
     text-align: center;
     color: rgb(0, 48, 73);
+}
+.pillar3img{
+    width: 374.39px;
+    height: 261px;
+    
 }
 .pillar3, h3{
     font-family: 'Prata', serif;
@@ -109,6 +124,7 @@ header{
     font-size: 36px;
     margin-left: 17px;
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.425);
+    font-weight: normal;
 }
 li{
     padding: 0;
