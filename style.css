@@ -14,7 +14,7 @@ body{
     
 }
 header{
-    background: linear-gradient(to bottom, rgba(247,127,0,255) 96%, rgba(214,40,40,255) 4%);
+    background: linear-gradient(to bottom, rgba(247,127,0,255) 95%, rgba(214,40,40,255) 5%);
     grid-area: header;
     height: 90px;
     margin-bottom: 50px;
@@ -92,13 +92,14 @@ li{
     margin-left: 110px;
     float: left;
     font-family: 'Prata', serif;
-    font-weight: 100px;
 }
 .introtext, h1{
     font-size: 48px;
+    font-weight: lighter;
 }
 .introtext, h2{
     font-size: 24px;
+    font-weight: lighter;
 }
 li, a:link{
     color: #ffffff;
