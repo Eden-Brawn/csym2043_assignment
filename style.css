@@ -14,9 +14,9 @@ body{
     
 }
 header{
-    background: linear-gradient(to bottom, rgba(247,127,0,255) 95%, rgba(214,40,40,255) 5%);
+    background: linear-gradient(to bottom, rgba(247,127,0,255) 95.5%, rgba(214,40,40,255) 4.5%);
     grid-area: header;
-    height: 92px;
+    height: 90px;
     margin-bottom: 50px;
     color: #ffffff;
     box-shadow: 0px 0px 7px  black;
@@ -32,24 +32,24 @@ header{
     grid-area: title;
     margin-bottom: 50px;
     color: rgb(0, 48, 73);
-    box-shadow: 0px 4px 5px -4px black;
+    box-shadow: 0px 4px 9px -4px black;
 }
 .pillar1{
     background-color: white;
     grid-area: pillar1;
-    box-shadow: 0px 4px 5px -4px black;
+    box-shadow: 0px 4px 9px -4px black;
     margin-bottom: 50px;
 }
 .pillar2{
     background-color: white;
     grid-area: pillar2;
-    box-shadow: 0px 4px 5px -4px black;
+    box-shadow: 0px 4px 9px -4px black;
     margin-bottom: 50px;
 }
 .pillar3{
     background-color: white;
     grid-area: pillar3;
-    box-shadow: 0px 4px 5px -4px black;
+    box-shadow: 0px 4px 9px -4px black;
     margin-bottom: 50px;
 }
 .nav{
@@ -91,7 +91,7 @@ li{
 .introtext{
     text-align: center;
     width: 300px;
-    margin-top: 68.5px;
+    margin-top:45.8905px;
     margin-left: 110px;
     float: left;
     font-family: 'Prata', serif;
@@ -99,10 +99,12 @@ li{
 .introtext, h1{
     font-size: 48px;
     font-weight: lighter;
+    margin-top: 45px;
 }
 .introtext, h2{
     font-size: 24px;
     font-weight: lighter;
+    margin-top: 35px;
 }
 li, a:link{
     color: #ffffff;
