@@ -45,9 +45,10 @@ header{
     color: rgb(0, 48, 73);
 }
 .pillar1img{
-    width: 374.39px;
-    height: 261px;
-    
+    width: 80%;
+    height: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .pillar1, h3{
     font-family: 'Prata', serif;
@@ -67,9 +68,10 @@ header{
     color: rgb(0, 48, 73);
 }
 .pillar2img{
-    width: 355px;
-    height: 235px;
-    
+    width: 85%;
+    height: 50%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
 }
 .pillar2, h3{
     font-family: 'Prata', serif;
@@ -89,9 +91,10 @@ header{
     color: rgb(0, 48, 73);
 }
 .pillar3img{
-    width: 374.39px;
-    height: 261px;
-    
+    width: 80%;
+    height: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .pillar3, h3{
     font-family: 'Prata', serif;
