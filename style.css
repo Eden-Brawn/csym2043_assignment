@@ -1,5 +1,6 @@
 *{
    text-decoration: none; 
+
 }
 body{
     background-color: rgb(91.8%, 88.6%, 71.8%);
@@ -7,7 +8,7 @@ body{
     padding: 0;
     display: grid;
     grid-template-rows: autos;
-    grid-template-columns: 8.5% 26.6% 1.5% 26.6% 1.5% 26.6% 8.5%;
+    grid-template-columns: 9.4% 26% 1.5% 26% 1.5% 26% 9.4%;
     grid-template-areas: "header header header header header header header"
                             ". title title title title title ."
                             ". pillar1 . pillar2 . pillar3 .";
@@ -16,41 +17,46 @@ body{
 header{
     background: linear-gradient(to bottom, orange 96%, red 4%);
     grid-area: header;
-    height: 85px;
+    height: 90px;
     margin-bottom: 50px;
     color: #ffffff;
     box-shadow: 1px 1px 10px black;
+    width: auto;
+    position: -webkit-sticky;
+	position: sticky;
+	top: 0;
 }
 .card1{
     background-color: white;
     grid-area: title;
     margin-bottom: 50px;
     color: rgb(0, 48, 73);
-    box-shadow: 1px 1px 10px black;
+    box-shadow: 1px 1px 10px -5px black;
 }
 .pillar1{
     background-color: white;
     grid-area: pillar1;
-    box-shadow: 1px 1px 10px black;
+    box-shadow: 1px 1px 10px -5px black;
 }
 .pillar2{
     background-color: white;
     grid-area: pillar2;
-    box-shadow: 1px 1px 10px black;
+    box-shadow: 1px 1px 10px -5px black;
 }
 .pillar3{
     background-color: white;
     grid-area: pillar3;
-    box-shadow: 1px 1px 10px black;
+    box-shadow: 1px 1px 10px -5px black;
 }
 .nav{
     list-style-type: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 0;
+    margin: 0;
     margin-top: 26px;
     text-align: center;
-    margin-right: 0;
+    
 }
 .name{
     float: left;
@@ -68,7 +74,7 @@ li{
     font-family: 'Prata', serif;
     font-size: 24px;
     text-decoration: none;
-    
+    margin-right: 0;
     
 }
 .mainimg{
