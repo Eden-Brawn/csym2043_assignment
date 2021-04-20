@@ -43,6 +43,7 @@ header{
     margin-bottom: 50px;
     text-align: center;
     color: rgb(0, 48, 73);
+    
 }
 .pillar1img{
     width: 80%;
@@ -51,6 +52,7 @@ header{
     margin-right: 10%;
     margin-top: 10%;
     margin-bottom: 5%;
+    
 }
 .pillar1, h3{
     font-family: 'Prata', serif;
@@ -63,6 +65,7 @@ header{
     font-weight: bolder;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 10%;
 }
 .pillar2{
     background-color: white;
@@ -73,12 +76,12 @@ header{
     color: rgb(0, 48, 73);
 }
 .pillar2img{
-    width: 95%;
-    height: 56%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    margin-top: 0;
-    margin-bottom: 2.5%;
+    width: 80%;
+    height: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 5%;
 }
 .pillar2, h3{
     font-family: 'Prata', serif;
@@ -92,6 +95,7 @@ header{
     font-weight: bolder;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 10%;
 }
 .pillar3{
     background-color: white;
@@ -120,6 +124,7 @@ header{
     font-weight: bolder;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 10%;
 }
 .nav{
     list-style-type: none;
