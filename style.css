@@ -9,6 +9,7 @@ body{
     grid-template-columns: 9.4% 26% 1.5% 26% 1.5% 26% 9.4%;
     grid-template-areas: "header header header header header header header"
                             ". title title title title title ."
+                            ". text text text text text ."
                             ". pillar1 . pillar2 . pillar3 .";
 }
 header{
@@ -32,6 +33,13 @@ header{
 .card1{
     background-color: white;
     grid-area: title;
+    margin-bottom: 50px;
+    color: rgb(0, 48, 73);
+    box-shadow: 0px 4px 9px -4px black;
+}
+.card2{
+    background-color: white;
+    grid-area: text;
     margin-bottom: 50px;
     color: rgb(0, 48, 73);
     box-shadow: 0px 4px 9px -4px black;
