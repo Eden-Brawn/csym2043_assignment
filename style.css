@@ -47,7 +47,7 @@ header{
 }
 .pillar1img{
     width: 80%;
-    height: 50%;
+    height: 42%;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 10%;
@@ -63,9 +63,9 @@ header{
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     font-weight: bolder;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+    
 }
 .pillar2{
     background-color: white;
@@ -91,9 +91,9 @@ header{
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     font-weight: bolder;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+    
 }
 .pillar3{
     background-color: white;
@@ -105,7 +105,7 @@ header{
 }
 .pillar3img{
     width: 80%;
-    height: 50%;
+    height: 42%;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 10%;
@@ -121,9 +121,9 @@ header{
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     font-weight: bolder;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+    
 }
 .nav{
     list-style-type: none;
