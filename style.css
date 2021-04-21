@@ -3,6 +3,7 @@
 }
 body{
     background-color: rgba(194,188,152,255);
+    color: #ffffff;
     margin: 0;
     display: grid;
     grid-template-rows: autos;
@@ -157,6 +158,7 @@ header{
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.425);
     font-weight: normal;
     padding: 0;
+    color: #ffffff;
 }
 li{
     padding: 0;
@@ -167,6 +169,9 @@ li{
     font-size: 24px;
     text-decoration: none;
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.425);
+}
+li, a{
+    color: #ffffff;
 }
 .mainimg{
     width: 551px;
