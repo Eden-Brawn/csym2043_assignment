@@ -1,10 +1,6 @@
 *{
    text-decoration: none; 
 }
-html{
-    width: 100%;
-    height: 100%;
-}
 body{
     min-width: 100%;
     min-height: 100%;
@@ -15,7 +11,7 @@ body{
     margin: 0;
     display: grid;
     grid-template-rows: autos;
-    grid-template-columns: 9.4% 26% 1.5% 26% 1.5% 26% 9.4%;
+    grid-template-columns:  1fr 3fr 0.16fr 3fr 0.16fr 3fr 1fr;
     grid-template-areas: "header header header header header header header"
                             ". title title title title title ."
                             ". text text text text text ."
@@ -25,13 +21,13 @@ body{
 header{
     background: linear-gradient(to bottom, rgba(247,127,0,255) 95.5%, rgba(214,40,40,255) 4.5%);
     min-width: 100%;
+    width: fit-content;
     grid-area: header;
     height: 90px;
     margin-bottom: 50px;
     color: #ffffff;
     box-shadow: 0px 0px 7px  black;
-    max-width: 1563px;
-    width: 1349px;
+    
     position: -webkit-sticky;
 	position: sticky;
 	top: 0;
@@ -153,7 +149,7 @@ header{
     margin-top: 26px;
     text-align: center;
     justify-content: right;
-    width: 520px;
+    width: 40%;
     float: right;
     margin-right: 10px;
 }
@@ -262,6 +258,16 @@ li, a{
     color: rgb(0, 48, 73);
     box-shadow: 0px 4px 9px -4px black;
     text-align: center;
+    display: block;
+}
+.classcard2{
+    background-color: white;
+    grid-area: classcard1;
+    margin-bottom: 50px;
+    color: rgb(0, 48, 73);
+    box-shadow: 0px 4px 9px -4px black;
+    text-align: center;
+    display: none;
 }
 li, a:link{
     color: #ffffff;

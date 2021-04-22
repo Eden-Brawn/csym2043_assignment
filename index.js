@@ -3,3 +3,8 @@ function print5() {
     console.log(2);
 }
 print5();
+
+
+
+
+document.addEventListener('DOMContentLoaded', loadFunction);
