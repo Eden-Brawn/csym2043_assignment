@@ -343,9 +343,12 @@ form{
     background-color: #eae2b7;
     text-align: center;
     position: relative;
-    top: 50%;
-    left: 340%;
-    
+    top: 33%;
+    left: 33%;
+    display: none;
+}
+form.active{
+    display: block;
 }
 button{
     color: white;
