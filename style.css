@@ -19,7 +19,8 @@ body{
                             ". text text text text text text text text text ."
                             ". classcard1 classcard1 classcard1 classcard1 classcard1 classcard1 classcard1 classcard1 classcard1 . "
                             ". pillar1 . pillar2 pillar2 pillar2 pillar2 pillar2 . pillar3 ."
-                            ". questions questions questions questions . instagram instagram instagram instagram . ";
+                            ". questions questions questions questions . instagram instagram instagram instagram . "
+                            ". . . . signup signup signup . . . .";
 }
 header{
     background: linear-gradient(to bottom, rgba(247,127,0,255) 95.5%, rgba(214,40,40,255) 4.5%);
@@ -359,4 +360,10 @@ button{
 }
 li, a:link{
     color: #ffffff;
+}
+.signup{
+    grid-area: signup;
+    background-color: #ffffff;
+    margin-bottom: 50px;
+    height: 100px;
 }
