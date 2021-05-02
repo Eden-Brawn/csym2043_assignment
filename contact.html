@@ -33,7 +33,7 @@
             <img src="images/questions.svg" alt=""class="questionimg">
             <h3>Questions</h3>
             <p>Fill out this form with your contact<br> information and a question so I can<br> reapond with an answer</p>
-            <button class="questionbutton" type="button" onclick="form()">Open contact form</button>
+            <button class="questionbutton" type="button" ><a href="" onmouseover="form()">Open contact form</a></button>
         </div>
     </div>
     <div class="instacard">
@@ -41,15 +41,17 @@
             <img src="images/instagram.svg" alt="" class="instagramimg">
             <h3>Instagram</h3>
             <p>Follow my instagram, view my<br> posts and contact me<br>through their.</p>
-            <button class="instabutton" type="button">Visit Instagram</button>
+            <button class="instabutton" type="button"><a href="#">Visit Instagram</a></button>
         </div>
     </div>
-    <form action="" method="get" class="form" id="form">
-        <input type="text" name="Name" value="Name" id="name" required>
-        <input type="email" name="Email Address" value="Email Address" id="email" required>
-        <input type="subject" name="Subject" value="Subject" id="email" required>
-        <textarea name="Message" id="message" cols="20" rows="10">Message</textarea>
-        <input type="submit" value="Send Message">
-    </form>
+    <div id="form">
+        <form action="" method="get" class="form" >
+            <input type="text" name="Name" value="Name" id="name" required>
+            <input type="email" name="Email Address" value="Email Address" id="email" required>
+            <input type="subject" name="Subject" value="Subject" id="email" required>
+            <textarea name="Message" id="message" cols="20" rows="10">Message</textarea>
+            <input type="submit" value="Send Message">
+        </form>
+    </div>    
 </body>
 </html>

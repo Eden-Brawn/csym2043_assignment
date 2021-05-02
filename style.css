@@ -30,7 +30,6 @@ header{
     margin-bottom: 50px;
     color: #ffffff;
     box-shadow: 0px 0px 7px  black;
-    
     position: -webkit-sticky;
 	position: sticky;
 	top: 0;
@@ -111,7 +110,6 @@ header{
     font-weight: bolder;
     padding-left: 10px;
     padding-right: 10px;
-    
 }
 .pillar3{
     background-color: white;
@@ -133,7 +131,6 @@ header{
     font-family: 'Prata', serif;
     font-size: 20px;
     padding: 0;
-    
 }
 .pillar3, p{
     font-family: 'Lato', sans-serif;
@@ -141,7 +138,6 @@ header{
     font-weight: bolder;
     padding-left: 10px;
     padding-right: 10px;
-    
 }
 .nav{
     list-style-type: none;
@@ -191,7 +187,6 @@ li, a{
 }
 .introtext{
     text-align: center;
-    
     margin-top:45.8905px;
     margin-left: 15%;
     float: left;
@@ -228,7 +223,7 @@ li, a{
     padding-bottom: 80px;
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 9% 82% 9%;
     grid-template-areas: "left text right";
 }
 .classcard, h3 {
@@ -245,14 +240,14 @@ li, a{
     text-align: center;
 }
 .left{
-    text-align: right;
+    text-align: center;
+    padding-top: 13.76px;
     grid-area: left;
-    margin-right: 133.306px;
 }
 .right{
-    text-align: left;
+    text-align: center;
+    padding-top: 13.76px;
     grid-area: right;
-    margin-left: 133.306px;
 }
 .classcard1{
     background-color: white;
@@ -343,7 +338,7 @@ form{
     background-color: #eae2b7;
     text-align: center;
     position: relative;
-    top: 33%;
+    top: 300%;
     left: 33%;
     display: none;
 }

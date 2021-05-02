@@ -73,3 +73,6 @@ function switchClass() {
     arrow11.addEventListener('click', class1);
 }
 document.addEventListener('DOMContentLoaded', switchClass);
+function form() {
+    let display = document.getElementById('form').style.display = 'block';
+}
