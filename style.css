@@ -365,5 +365,12 @@ li, a:link{
     grid-area: signup;
     background-color: #ffffff;
     margin-bottom: 50px;
-    height: 100px;
+    padding: 0;
+    color: rgb(0, 48, 73);
+    box-shadow: 0px 4px 9px -4px black;
+}
+.signupindesign{    
+    text-align: center;
+    display: block;
+    margin-top: 18px;
 }
