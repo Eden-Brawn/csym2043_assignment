@@ -384,16 +384,17 @@ li, a:link{
     text-align: center;
     background: rgba(234,226,183,255);
     position: fixed;
-    top:10%;
+    top:2%;
+    bottom: 2%;
     left:32%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 95px;
+    padding-bottom: 90px;
 }
 label{
     background-color: #ffffff;
     width: 200px;
     color: rgb(0, 48, 73);
-    margin-bottom: 16px;
+    margin-bottom: 30px;
 }
 input{
     width: 80%;
