@@ -387,6 +387,12 @@ li, a:link{
     top:37.5%;
     left:37.5%;
 }
+label{
+    background-color: #ffffff;
+    width: 200px;
+    color: rgb(0, 48, 73);
+}
 input{
-    max-width: 100%;
+    width: 80%;
+    height: 40px;
 }
