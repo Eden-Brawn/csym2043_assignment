@@ -392,6 +392,8 @@ input{
     height: 40px;
     margin-top: 16px;
     margin-bottom: 16px;
+    border: none;
+    text-align: center;
 }
 .backdrop{
     display: none;
@@ -401,5 +403,5 @@ input{
     left:0%;
     right: 0%;
     z-index: 2;
-    background-color: rgba(0, 0, 0, 0.411);
+    background-color: rgba(0, 0, 0, 0.199);
 }
