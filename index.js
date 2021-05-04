@@ -74,15 +74,13 @@ function switchClass() {
 }
 document.addEventListener('DOMContentLoaded', switchClass);
 
-function form() {
-    let showform = false;
-    let menu = document.getElementById('form');
-    if(showform === false){
-        menu.style.display = 'block';
-        form = true;
-    }
-    else if(showform === true){
-        menu.style.display = 'none';
-        form = false;
-    }
+function showform(){
+    document.getElementById('form').style.display = "block";
 }
+function leaveform(){
+    document.getElementById('form').style.display = "none";
+}
+let form = showform();
+let noform = leaveform();
+let button = document.querySelector('.signup');
+let form = document.querySelector('.form');
