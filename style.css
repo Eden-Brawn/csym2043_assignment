@@ -377,25 +377,16 @@ li, a:link{
     margin-top: 18px;
     color: rgb(0, 48, 73);
 }
-.signupform{
-    display: none;
-  width: 500px;
-  padding: 10px;
-  text-align: center;
-  background: rgba(234,226,183,255);
-  position: fixed;
-  top:50%;
-  left:50%;
-
-}
 .form{
     display: none;
-  width: 500px;
-  padding: 10px;
-  text-align: center;
-  background: rgba(234,226,183,255);
-  position: fixed;
-  top:50%;
-  left:50%;
-
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+    background: rgba(234,226,183,255);
+    position: fixed;
+    top:37.5%;
+    left:37.5%;
+}
+input{
+    max-width: 100%;
 }
