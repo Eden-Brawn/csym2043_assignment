@@ -334,15 +334,6 @@ li, a{
     margin-left: 11%;
     margin-bottom: 40px;
 }
-form{
-    z-index: 2;
-    background-color: #eae2b7;
-    text-align: center;
-    position: relative;
-    top: 300%;
-    left: 33%;
-    display: none;
-}
 form.active{
     display: block;
 }
@@ -387,14 +378,14 @@ li, a:link{
     top:2%;
     bottom: 2%;
     left:32%;
-    padding-top: 95px;
-    padding-bottom: 90px;
+    
 }
 label{
     background-color: #ffffff;
     width: 200px;
     color: rgb(0, 48, 73);
     margin-bottom: 30px;
+    margin-top: 100px;
 }
 input{
     width: 80%;
