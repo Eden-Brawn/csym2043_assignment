@@ -73,14 +73,19 @@ function switchClass() {
     arrow11.addEventListener('click', class1);
 }
 document.addEventListener('DOMContentLoaded', switchClass);
-
+let openform = false;
 function showform(){
-    document.getElementById('form').style.display = "block";
+    if(openform == false){
+        document.getElementById('form').style.display = "block";
+        document.getElementById('backdrop').style.display = "block";
+        openform = true;
+    }
+    
 }
 function leaveform(){
-    document.getElementById('form').style.display = "none";
+    if(openform == true){
+            document.getElementById('form').style.display = "none";
+            document.getElementById('backdrop').style.display = "none";
+            openform = false;
+    }
 }
-let form = showform();
-let noform = leaveform();
-let button = document.querySelector('.signup');
-let form = document.querySelector('.form');

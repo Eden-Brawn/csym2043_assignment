@@ -394,7 +394,7 @@ input{
     margin-bottom: 16px;
 }
 .backdrop{
-    display: block;
+    display: none;
     position: fixed;
     top:0%;
     bottom: 0%;
