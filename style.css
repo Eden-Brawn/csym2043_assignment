@@ -380,6 +380,7 @@ li, a:link{
     left:32%;
     z-index: 3;
     padding-top: 65px;
+    box-shadow: 0px 4px 9px -4px black;
 }
 label{
     background-color: #ffffff;
@@ -401,6 +402,7 @@ input{
     font-family: 'Prata', serif;
     font-size: 18px;
     color: rgb(0, 48, 73);
+    box-shadow: 0px 4px 9px -4px black;
 }
 .backdrop{
     display: none;
