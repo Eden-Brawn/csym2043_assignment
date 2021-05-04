@@ -74,5 +74,5 @@ function switchClass() {
 }
 document.addEventListener('DOMContentLoaded', switchClass);
 function form() {
-    let display = document.getElementById('form').style.display = 'block';
+    document.getElementById('form').style.display = 'block';
 }
