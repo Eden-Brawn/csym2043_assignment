@@ -404,6 +404,19 @@ input{
     height: 45px;
     margin-top: 20px;
 }
+
+textarea{
+    width: 90%;
+    height: 150px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: none;
+    text-align: center;
+    font-family: 'Prata', serif;
+    font-size: 18px;
+    color: rgba(203,203,203,255);
+    box-shadow: 0px 4px 9px -4px black;
+}
 .backdrop{
     display: none;
     position: fixed;

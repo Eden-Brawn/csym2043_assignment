@@ -73,19 +73,27 @@ function switchClass() {
     arrow11.addEventListener('click', class1);
 }
 document.addEventListener('DOMContentLoaded', switchClass);
-let openform = false;
 function showform(){
-    if(openform == false){
+    let sign = document.getElementById('signup');
+    let contact = document.getElementById('contact');
+    if(onclick = sign){
         document.getElementById('form').style.display = "block";
         document.getElementById('backdrop').style.display = "block";
-        openform = true;
     }
-    
+    else if(onclick = contact){
+        document.getElementById('contactform').style.display = "block";
+        document.getElementById('backdrop2').style.display = "block";
+    }
 }
 function leaveform(){
-    if(openform == true){
-            document.getElementById('form').style.display = "none";
-            document.getElementById('backdrop').style.display = "none";
-            openform = false;
+    let sign = document.getElementById('backdrop');
+    let contactus = document.getElementById('backdrop2');
+    if(onclick = sign){
+        document.getElementById('form').style.display = "none";
+        document.getElementById('backdrop').style.display = "none";
+    }
+    if(onclick = contactus){
+        document.getElementById('contactform').style.display = "none";
+        document.getElementById('backdrop2').style.display = "none";
     }
 }
