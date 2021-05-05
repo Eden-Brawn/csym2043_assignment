@@ -98,12 +98,8 @@ function leaveform(){
     }
 }
 function sendsignup(){
-    let correct = confirm("Are these details correct?");
-        alert(correct);
-        if(correct == true){
-        document.getElementById('form').style.display = "none";
-        document.getElementById('backdrop').style.display = "none";  }
-            else if(correct == false){
-                
-            }
+    let data = document.getElementById('form');
+    let fname = data.elements[1];
+    alert(fname);
 }
+ 
