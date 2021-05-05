@@ -49,6 +49,9 @@ header{
     color: rgb(0, 48, 73);
     box-shadow: 0px 4px 9px -4px black;
 }
+footer{
+    display: none;
+}
 @media (max-width: 786px){
     .mainimg{
         display: none;
@@ -70,11 +73,37 @@ header{
                             ". questions questions questions questions . instagram instagram instagram instagram . "
                             ". . . . signup signup signup . . . .";
     }
-    .card1{
-        text-align: center;
+    .card1, .introtext, h1{
+        font-size: none;
+        margin-top: 45px;
+    }
+    .introtext, h2{
+        font-size: 15px;
+        margin-top: 35px;
     }
     ul, li{
         display: none;
+    }
+    p{
+        font-size: 10px;
+    }
+    .pillt{
+        font-size: 12.5px;
+    }
+    .pillar1img{
+        margin: 0;
+    }
+    .pillar2img{
+        width: 10%;
+    }
+    header, p{
+        font-size: 10px;
+    }
+}
+@media (min-width: 786px){
+    .pillar2img{
+        width: auto;
+        height: auto;
     }
 }
 .card2{
@@ -93,8 +122,8 @@ header{
     color: rgb(0, 48, 73);
 }
 .pillar1img{
-    width: 80%;
-    height: 42%;
+    max-width: 100%; 
+    height: auto;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 10%;
@@ -121,8 +150,8 @@ header{
     color: rgb(0, 48, 73);
 }
 .pillar2img{
-    height: 39.5%;
-    width: 85%;
+    max-width: 100%; 
+    height: auto;
     margin: 0;
     padding: 0;
     margin-right: 7.5%;
@@ -151,8 +180,8 @@ header{
     color: rgb(0, 48, 73);
 }
 .pillar3img{
-    width: 80%;
-    height: 42%;
+    max-width: 100%; 
+    height: auto;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 10%;
@@ -185,7 +214,7 @@ header{
 }
 .name{
     float: left;
-    width: 350px;
+    width: 24%;
     margin: 0;
     margin-top: 18px;
     font-family: 'Prata', serif;
