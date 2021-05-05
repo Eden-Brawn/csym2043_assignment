@@ -97,3 +97,13 @@ function leaveform(){
         document.getElementById('backdrop2').style.display = "none";
     }
 }
+function sendsignup(){
+    let correct = confirm("Are these details correct?");
+        alert(correct);
+        if(correct == true){
+        document.getElementById('form').style.display = "none";
+        document.getElementById('backdrop').style.display = "none";  }
+            else if(correct == false){
+                
+            }
+}
