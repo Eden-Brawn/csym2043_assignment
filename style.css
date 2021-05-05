@@ -27,8 +27,8 @@ header{
     min-width: 100%;
     width: fit-content;
     grid-area: header;
-    height: 67%;
-    margin-bottom: 50px;
+    height: 60%;
+    margin-bottom: 5%;
     color: #ffffff;
     box-shadow: 0px 0px 7px  black;
     position: -webkit-sticky;
@@ -45,14 +45,14 @@ header{
 .card1{
     background-color: white;
     grid-area: title;
-    margin-bottom: 50px;
+    margin-bottom: 5%;
     color: rgb(0, 48, 73);
     box-shadow: 0px 4px 9px -4px black;
 }
 .card2{
     background-color: white;
     grid-area: text;
-    margin-bottom: 50px;
+    margin-bottom: 5%;
     color: rgb(0, 48, 73);
     box-shadow: 0px 4px 9px -4px black;
 }
