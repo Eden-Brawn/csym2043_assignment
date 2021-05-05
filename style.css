@@ -49,6 +49,34 @@ header{
     color: rgb(0, 48, 73);
     box-shadow: 0px 4px 9px -4px black;
 }
+@media (max-width: 786px){
+    .mainimg{
+        display: none;
+    }
+    .header, .nav{
+        display: none;
+    }
+    body{
+        display: grid;
+    grid-template-rows: autos;
+    grid-template-columns:  10% 25.75% 1.5% 7.75% 2% 6% 2% 7.75% 1.5% 25.75% 10%;
+    grid-template-areas: "header header header header header header header header header header header"
+                            ". title title title title title title title title title ."
+                            ". text text text text text text text text text ."
+                            ". classcard1 classcard1 classcard1 classcard1 classcard1 classcard1 classcard1 classcard1 classcard1 . "
+                            ". pillar1 pillar1 pillar1 pillar1 pillar1 pillar1 pillar1 pillar1 pillar1 ."
+                            ". pillar2 pillar2 pillar2 pillar2 pillar2 pillar2 pillar2 pillar2 pillar2 ."
+                            ". pillar3 pillar3 pillar3 pillar3 pillar3 pillar3 pillar3 pillar3 pillar3 ."
+                            ". questions questions questions questions . instagram instagram instagram instagram . "
+                            ". . . . signup signup signup . . . .";
+    }
+    .card1{
+        text-align: center;
+    }
+    ul, li{
+        display: none;
+    }
+}
 .card2{
     background-color: white;
     grid-area: text;
@@ -60,7 +88,7 @@ header{
     background-color: white;
     grid-area: pillar1;
     box-shadow: 0px 4px 9px -4px black;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
     text-align: center;
     color: rgb(0, 48, 73);
 }
@@ -88,7 +116,7 @@ header{
     background-color: white;
     grid-area: pillar2;
     box-shadow: 0px 4px 9px -4px black;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
     text-align: center;
     color: rgb(0, 48, 73);
 }
@@ -118,7 +146,7 @@ header{
     background-color: white;
     grid-area: pillar3;
     box-shadow: 0px 4px 9px -4px black;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
     text-align: center;
     color: rgb(0, 48, 73);
 }
@@ -190,7 +218,7 @@ li, a{
 }
 .introtext{
     text-align: center;
-    margin-top:45.8905px;
+    margin-top:10%;
     margin-left: 15%;
     float: left;
     font-family: 'Prata', serif;
@@ -309,7 +337,7 @@ li, a{
 .questioncard{
     background-color: white;
     grid-area: questions;
-    margin-bottom: 50px;
+    margin-bottom: 15%;
     color: rgb(0, 48, 73);
     box-shadow: 0px 4px 9px -4px black;
     text-align: center;
@@ -324,7 +352,7 @@ li, a{
 .instacard{
     background-color: white;
     grid-area: instagram;
-    margin-bottom: 50px;
+    margin-bottom: 15%;
     color: rgb(0, 48, 73);
     box-shadow: 0px 4px 9px -4px black;
     text-align: center;
